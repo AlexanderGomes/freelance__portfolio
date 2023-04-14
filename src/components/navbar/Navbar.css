@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+  padding: 20px;
+}
+
+.nav__links {
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  color: orange;
+  font-size: 20px;
+}
+
+.nav__links li:hover {
+  color: orange;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
