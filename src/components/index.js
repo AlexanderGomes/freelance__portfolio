@@ -5,3 +5,6 @@ export { default as Layout } from "./layout/Layout";
 export { default as Testimonials } from "./testimonials/Testimonials";
 export { default as Mission } from "./mission/Mission";
 export { default as Projects } from "./projects/Projects";
+export { default as Plan } from "./animations/Plan";
+export { default as Work } from "./Work/Work";
+export { default as WorkHistory } from "./animations/WorkHistory";

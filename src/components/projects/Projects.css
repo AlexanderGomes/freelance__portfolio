@@ -1,0 +1,98 @@
+.project__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.top__text {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+}
+
+/* project card */
+
+.project-card {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.project-image {
+  width: 100%;
+  transition: transform 0.2s;
+}
+
+.project-image img {
+  height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.project-details h2 {
+  font-size: 24px;
+  font-family: "DynaPuff", cursive;
+  color: rgba(128, 128, 128, 0.716);
+  margin-bottom: 10px;
+}
+
+.project-details p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.project-details ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project-details li {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  color: #333;
+  font-size: 14px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+
+.project-details a {
+  background-color: #333;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.project-details a:hover {
+  background-color: #555;
+}
+
+.links__card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__position {
+  display: flex;
+}

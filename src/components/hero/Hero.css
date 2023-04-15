@@ -62,22 +62,20 @@
   align-items: center;
   font-size: 18px;
   color: gray;
-  font-family: 'DynaPuff', cursive;
+  font-family: "DynaPuff", cursive;
   cursor: pointer;
 }
 
 .companies__info p:hover {
-    color: orange;
-    transition: ease-in-out 0.3s;
+  color: orange;
+  transition: ease-in-out 0.3s;
 }
-
-
 
 /* animation */
 
 .down-arrow {
   position: absolute;
-  top: 400px;
+  top: 830px;
   width: 0;
   height: 30px;
   border: 2px solid;

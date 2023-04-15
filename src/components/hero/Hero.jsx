@@ -1,4 +1,5 @@
 import React from "react";
+import { WorkHistory } from "../";
 import "./Hero.css";
 
 const Hero = () => {
@@ -11,6 +12,7 @@ const Hero = () => {
           engineering.
         </p>
       </div>
+        <WorkHistory />
       <div className="hero__bottom">
         <p>Worked with:</p>
         <div className="down-arrow"></div>

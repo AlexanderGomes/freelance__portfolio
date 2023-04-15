@@ -1,0 +1,9 @@
+.container {
+  width: 400px;
+  height: 200px;
+}
+
+.container__work {
+  width: 500px;
+  height: 400px;
+}

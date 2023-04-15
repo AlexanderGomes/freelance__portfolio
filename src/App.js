@@ -1,16 +1,22 @@
 import "./App.css";
-import { Hero, Layout, Testimonials, Mission, Projects } from "./components";
+import {
+  Hero,
+  Layout,
+  Testimonials,
+  Mission,
+  Projects,
+  Work,
+} from "./components";
 
 function App() {
   return (
-    <div>
-      <Layout>
-        <Hero />
-        <Testimonials />
-        <Mission />
-        <Projects />
-      </Layout>
-    </div>
+    <Layout>
+      <Hero />
+      <Testimonials />
+      <Mission />
+      <Projects />
+      <Work />
+    </Layout>
   );
 }
 
