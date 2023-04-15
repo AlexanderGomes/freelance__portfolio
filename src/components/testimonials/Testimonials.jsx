@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { Proof1, Proof2, Proof3, Goal } from "../../assets";
+
 import "./Testimonials.css";
-import { Proof1, Proof2, Proof3 } from "../../assets";
 
 const Testimonials = () => {
   const [rating, setRating] = useState(0);
@@ -25,6 +26,14 @@ const Testimonials = () => {
           </span>
         ))}
       </div>
+      <div className="test__link">
+        <a
+          target="_blank"
+          href="https://www.upwork.com/freelancers/~012f708ad6909f11b9"
+        >
+          Check it out
+        </a>
+      </div>
       <div className="horizontal_slider">
         <div className="slider_container">
           <div className="card__inner">
@@ -38,13 +47,9 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className="test__link">
-        <a
-          target="_blank"
-          href="https://www.upwork.com/freelancers/~012f708ad6909f11b9"
-        >
-          Check it out
-        </a>
+
+      <div className="div__rocket">
+        <img className="rocket" src={Goal} alt="goal rocket" />
       </div>
     </div>
   );

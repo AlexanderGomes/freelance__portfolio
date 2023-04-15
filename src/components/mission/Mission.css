@@ -1,0 +1,23 @@
+.mission__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  height: 100%;
+}
+
+.mission__main h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+}
+
+.mission__main p {
+  font-family: 'Source Code Pro', monospace;
+ font-size: 17px;
+}
+
+.mission__p {
+  width: 70%;
+  margin-top: 20px;
+}
