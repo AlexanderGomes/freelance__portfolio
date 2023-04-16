@@ -4,7 +4,7 @@ import "./Work.css";
 
 const Work = () => {
   return (
-    <div className="work__main">
+    <div id="work" className="work__main">
       <h1 className="top__text">Work History</h1>
       <p className="disclousure">(Some of the work can't be disclosed)</p>
       {history.map((work) => (

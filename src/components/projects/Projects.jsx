@@ -6,7 +6,7 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <div className="project__main">
+    <div id="project" className="project__main">
       <h1 className="top__text">Projects</h1>
       <Plan />
       <div className="horizontal_slider">

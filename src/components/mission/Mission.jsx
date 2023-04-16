@@ -3,7 +3,7 @@ import "./Mission.css";
 
 const Mission = () => {
   return (
-    <div className="mission__main">
+    <div id="mission" className="mission__main">
       <h1>My Mission</h1>
       <div className="mission__p">
         <p>

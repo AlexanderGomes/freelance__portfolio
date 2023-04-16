@@ -11,7 +11,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="test__main">
+    <div id="testimonial" className="test__main">
       <div className="test__top">
         <p>What my clients have to say about me?</p>
       </div>

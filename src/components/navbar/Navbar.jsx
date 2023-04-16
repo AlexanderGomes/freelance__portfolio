@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -8,9 +9,22 @@ const Navbar = () => {
         <p>A2G</p>
       </div>
       <ul className="nav__links">
-        <li>Testimonials</li>
-        <li>Mission</li>
-        <li>Projects</li>
+        <li>
+          {" "}
+          <Link to="testimonial" smooth={true}>
+            Testimonials
+          </Link>
+        </li>
+        <li>
+          <Link to="mission" smooth={true}>
+            Mission
+          </Link>
+        </li>
+        <li>
+          <Link to="work" smooth={true}>
+            Work
+          </Link>
+        </li>
       </ul>
     </div>
   );
