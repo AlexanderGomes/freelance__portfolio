@@ -8,6 +8,7 @@
 
 .nav__links {
   display: flex;
+  font-size: 13px;
   gap: 20px;
 }
 

@@ -25,6 +25,15 @@ const Navbar = () => {
             Work
           </Link>
         </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="mailto:alexsandergomeshamir@gmail.com"
+          >
+            Contact
+          </a>
+        </li>
       </ul>
     </div>
   );
