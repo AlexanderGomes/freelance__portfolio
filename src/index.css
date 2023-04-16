@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto+Mono&family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto+Mono&family=Source+Code+Pro&display=swap");
 html,
 body,
 div,
@@ -122,4 +122,9 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+
+body {
+  width: 100%;
 }
