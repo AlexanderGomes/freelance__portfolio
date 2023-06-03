@@ -4,7 +4,11 @@ import { projects } from "../../constans/constans";
 
 import "./Projects.css";
 
+
+
 const Projects = () => {
+
+  
   return (
     <div id="project" className="project__main">
       <h1 className="top__text">Projects</h1>

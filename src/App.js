@@ -13,7 +13,6 @@ function App() {
     <Layout>
       <Hero />
       <Testimonials />
-      <Mission />
       <Projects />
       <Work />
     </Layout>
