@@ -32,13 +32,13 @@ export const history = [
   {
     id: 0,
     company: "Connective",
-    position: "Full Stack egineer",
-    responsabilities: ["Worked with UI/UX designers to build an MVP that convinced the company to proceed with the project.", "Contributed to the development of the authentication process, as well as the verification of user identity with Stripe Identity", "Assisted with the documentation and implementation of Stripe Connect, allowing our sellers to be paid and our clients to be protected", "Came up with the idea of using Amazon rekognition to get a face ID of each user as part of our blacklisting method, making it harder for users to re-register under different credentials."]
+    position: "Backend Engineer",
+    responsabilities: ["Collaborated closely with the UI/UX team to create a compelling MVP, leading to the successful approval and progression of the project.", "Developed a robust authentication system that mitigated the risk of fraudulent or multiple credentials, ensuring a secure user registration process.", "Worked in collaboration with the security team to establish and implement best practices, incorporating additional layers of protection that significantly deterred scam users from registering with different credentials."]
   },
   {
     id: 1,
-    company: "Freelance",
-    position: "Backend engineer",
-    responsabilities: ["Took on an undocumented Mern project and made it easier for the next team to understand without requiring too much time and effort.", "Implemented Elasticsearch to improve performance when querying large quantities of products and memcached to avoid hitting the database too often for non-changed information"]
+    company: "Fimathe",
+    position: "Software Engineer",
+    responsabilities: ["Collaborated closely with the Fimathe team to comprehensively implement every aspect of their trading strategy, resulting in the successful automation of a $30 million dollars strategy.", "Successfully minimized slippage from 8 cents to 0.50 cent by streamlining order processing, eliminating unnecessary computations that were previously performed at order time, and precomputing relevant logic.", "Collected and meticulously cleaned 15 years of trading history data, enabling the creation of an advanced analysis system that provides insights on past trading actions at specific price points.", "Implemented the analysis system, which now equips the team with valuable information before every trade, significantly improving accuracy and assisting in the training of a small, initially inexperienced team."]
   }
 ]

@@ -3,7 +3,6 @@ import {
   Hero,
   Layout,
   Testimonials,
-  Mission,
   Projects,
   Work,
 } from "./components";
@@ -13,8 +12,8 @@ function App() {
     <Layout>
       <Hero />
       <Testimonials />
-      <Projects />
       <Work />
+      <Projects />
     </Layout>
   );
 }
