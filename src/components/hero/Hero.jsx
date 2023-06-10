@@ -25,9 +25,6 @@ const Hero = () => {
           <div>
             <p>Fimathe</p>
           </div>
-          <div>
-            <p>River Tech</p>
-          </div>
         </div>
       </div>
     </div>
