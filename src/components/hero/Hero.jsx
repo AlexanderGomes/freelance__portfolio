@@ -23,7 +23,7 @@ const Hero = () => {
             <p>Connective</p>
           </div>
           <div>
-            <p>Stellar Career</p>
+            <p>Fimathe</p>
           </div>
           <div>
             <p>River Tech</p>
