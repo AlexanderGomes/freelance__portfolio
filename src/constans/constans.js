@@ -17,6 +17,14 @@ export const projects = [
     github: "https://github.com/AlexanderGomes/daycare-activity-trip",
     live: "http://www.tripplanet.org/",
   },
+   {
+    id: 2,
+    title: "CareerConnect",
+    desc: "Upwork prototype",
+    image: Mentor,
+    github: "https://github.com/AlexanderGomes/mentorship",
+    live: "https://mentorship101.herokuapp.com/",
+  },
 ];
 
 
