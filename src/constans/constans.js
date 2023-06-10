@@ -15,7 +15,7 @@ export const projects = [
     desc: "real time voting platform",
     image: Trip,
     github: "https://github.com/AlexanderGomes/daycare-activity-trip",
-    live: "https://www.tripplanet.org/",
+    live: "http://www.tripplanet.org/",
   },
   {
     id: 2,
